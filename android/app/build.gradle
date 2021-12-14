@@ -208,6 +208,9 @@ dependencies {
         exclude group:'com.facebook.flipper'
     }
 
+    apply from: "../../node_modules/react-native/react.gradle"
+    apply from: "../../node_modules/react-native-code-push/android/codepush.gradle"
+    
     if (enableHermes) {
         def hermesPath = "../../node_modules/hermes-engine/android/";
         debugImplementation files(hermesPath + "hermes-debug.aar")

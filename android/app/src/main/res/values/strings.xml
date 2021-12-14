@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AmnilACTest</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">TT4ZJ2bYZOvD5C9lOrViSyFZN0LmZxdfr4pnP</string>
 </resources>
